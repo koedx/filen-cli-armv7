@@ -92,7 +92,7 @@ jobs:
           cp -v "$BIN" out/filen-cli-armv7-android
           ls -la out
 
-      - name: Record the TLS patch (AGPL: source changes stay published)
+      - name: "Record the TLS patch (AGPL, source changes stay published)"
         run: git -C filen-rs diff > out/tls-patch.diff; ls -la out
 
       - name: Publish a GitHub Release
