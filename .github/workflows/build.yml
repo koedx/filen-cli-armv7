@@ -1,8 +1,8 @@
 name: build-filen-cli-armv7
 
 # Cross-compiles filen-cli from the upstream filen-rs repo for 32-bit ARM Android
-# (armv7-linux-androideabi), to run inside Termux.
-# Put this file in your own repo at .github/workflows/build-filen-armv7.yml and run it
+# Run it from the Actions tab or: gh workflow run build.yml -R koedx/filen-cli-armv7
+# STATUS: UNVERIFIED -- no build has been run yet.
 # from the Actions tab. STATUS: UNVERIFIED -- the repo was read, but no build has been run.
 
 permissions:
